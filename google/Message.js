@@ -125,7 +125,7 @@ Message.prototype.addData = function (key, value) {
     return this;
 };
 
-Message.prototype.setData = function (data) {
+Message.prototype.data = function (data) {
     this.mData = data || {};
     return this;
 };
