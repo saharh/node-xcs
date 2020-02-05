@@ -125,6 +125,11 @@ Message.prototype.addData = function (key, value) {
     return this;
 };
 
+Message.prototype.setData = function (data) {
+    this.mData = data || {};
+    return this;
+};
+
 /**
  * Sets the dryRun property (default value is {@literal false}).
  */
